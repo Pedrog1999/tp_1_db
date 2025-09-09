@@ -1,4 +1,5 @@
 <?php
+
 require_once "conexion.php";
 
 $stmt = $pdo->prepare("SELECT * FROM empleados WHERE activo = 0");
